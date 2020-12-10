@@ -31,7 +31,7 @@ jobs:
                continue 
              }
              var branch = await github.repos.getBranch({
-              owner: 'bbq-beets',
+              owner: 'tingluohuang',
               repo: 'ForkPRCanary',
               branch: branchName
              });
